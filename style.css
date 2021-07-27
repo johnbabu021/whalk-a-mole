@@ -1,0 +1,31 @@
+    .square{
+        width: 200px;
+        height: 200px;
+        border: 3px solid black;
+    }
+    .grid{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 618px;
+        height: 618px;
+    }
+    .mole{
+        background-image: url(mole.jpg);
+        background-size:cover
+    }
+    .button-container{
+     width: 20vw;
+     height: 20vh;
+        display: grid;
+       place-items: center;
+      
+       
+    }
+    button{
+        background-color: rebeccapurple;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
