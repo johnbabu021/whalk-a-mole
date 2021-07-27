@@ -12,7 +12,7 @@ playAgainBtn.style.display = 'none'
 playAgainBtn.addEventListener("click", playAgain)
 function playAgain() {
     gameEnd = false
-    currentTime = 10
+    currentTime = 60
     timerId = setInterval(countDown, 1000)
 }
 
